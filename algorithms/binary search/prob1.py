@@ -66,10 +66,3 @@ while(start <= end):
     
 
 print(result)
-
-
-
-
-
-
-
