@@ -9,8 +9,6 @@
 
 '''
 
-from xml.dom import INDEX_SIZE_ERR
-
 
 arr = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 
@@ -28,6 +26,7 @@ def func(arr, start, end, target):
     return func(arr, start, end, target)
 
 print(func(arr, 0, 9, 18) )
+print()
     
 '''
 while start<= end:
